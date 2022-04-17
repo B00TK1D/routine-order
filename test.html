@@ -2,11 +2,11 @@
     <script src="min.js"></script>
     <link href="min.css" rel="stylesheet" type="text/css" />
     <script id="template" type="text/x-handlebars-template">
-        {{#each day}}
-            <h2>{{date}}</h2>
+        {{#each days}}
+            <h1>{{this}}</h1>
             <ul>
-                {{#each events}}
-                    <li>{{title}}</li>
+                {{#each this.events}}
+                    <li>{{this}}</li>
                 {{/each}}
             </ul>
         {{/each}}
