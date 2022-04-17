@@ -1,0 +1,475 @@
+p {
+    margin-bottom: 10px;
+  }
+  
+  .email-container {
+    width: 700px;
+  }
+  
+  .ro-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 4px solid #000;
+    background-color: red;
+  }
+  
+  .body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .ro-heading-1 {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+    color: #000;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .ro-heading-1.hidden {
+    display: none;
+  }
+  
+  .ro-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  
+  .ro-column {
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  .ro-columns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .ro-text {
+    font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .ro-text.centered {
+    color: #000;
+    text-align: center;
+  }
+  
+  .ro-text.schedule-time {
+    position: relative;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .ro-text.schedule-description {
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .ro-text.bold {
+    font-weight: 700;
+  }
+  
+  .ro-text.filtered.tuesday {
+    display: none;
+  }
+  
+  .ro-text.filtered.wednesday {
+    display: none;
+  }
+  
+  .ro-text.filtered.thursday {
+    display: none;
+  }
+  
+  .ro-text.filtered.friday {
+    display: none;
+  }
+  
+  .ro-text.filtered.saturday {
+    display: none;
+  }
+  
+  .ro-text.filtered.sunday {
+    display: none;
+  }
+  
+  .ro-schedule-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 2px solid #000;
+  }
+  
+  .ro-schedule-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  .ro-schedule-column {
+    width: 25%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 2px solid #000;
+  }
+  
+  .ro-schedule-column.red {
+    background-color: red;
+  }
+  
+  .ro-schedule-column.yellow {
+    background-color: #ff0;
+  }
+  
+  .ro-schedule-column.blue {
+    background-color: #0091ff;
+  }
+  
+  .ro-schedule-column.silver {
+    background-color: #dadada;
+  }
+  
+  .ro-schedule {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .ro-schedule-item {
+    position: relative;
+    padding: 6px 18px;
+    border: 2px solid #000;
+  }
+  
+  .ro-schedule-item.red {
+    background-color: red;
+  }
+  
+  .ro-schedule-item.red.single {
+    width: 25%;
+  }
+  
+  .ro-schedule-item.red.hidden {
+    display: none;
+  }
+  
+  .ro-schedule-item.yellow {
+    background-color: #ff0;
+  }
+  
+  .ro-schedule-item.yellow._50 {
+    width: 50%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  
+  .ro-schedule-item.yellow.double {
+    width: 50%;
+  }
+  
+  .ro-schedule-item.yellow.single {
+    width: 25%;
+  }
+  
+  .ro-schedule-item.yellow.hidden {
+    display: none;
+  }
+  
+  .ro-schedule-item.yellow._25 {
+    width: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  
+  .ro-schedule-item.mandatory-all {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  .ro-schedule-item.quarter {
+    width: 25%;
+    border-right-width: 4px;
+  }
+  
+  .bold-text {
+    color: #000;
+  }
+  
+  .ro-spacer {
+    height: 100px;
+  }
+  
+  .ro-schedule-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  
+  .ro-schedule-row.hidden {
+    display: none;
+  }
+  
+  .inline {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .collection-list {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  
+  .background {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+  }
+  
+  .background.mandatory {
+    z-index: -1;
+    background-color: #ff0;
+  }
+  
+  .background.optional {
+    z-index: -1;
+    background-color: red;
+  }
+  
+  .complicted-description {
+    position: relative;
+    font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .complicted-description p {
+    margin-bottom: 0px;
+  }
+  
+  .ro-schedule-entry {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  
+  .collection-list-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .div-block {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: -2;
+    background-color: red;
+  }
+  
+  .ro-schedule-spacer {
+    border: 2px solid #000;
+    background-color: red;
+  }
+  
+  .ro-schedule-spacer._75 {
+    width: 75%;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .ro-column {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .ro-heading-1 {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  
+    .ro-column {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  
+    .ro-text {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
