@@ -1,6 +1,5 @@
 <html>
     <head>
-        <!-- Include Handlebars from a CDN -->
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
@@ -11,9 +10,10 @@
             </h1>
         </script>
         <script>
-            var template = $('#template').html();
-            var templateScript = Handlebars.compile(template);
-
+            var templateScript = Handlebars.compile($('#template').html());
+            $(document).ready(function() {
+                $.ajaxSetup({ cache: false });
+            });
             $.getJSON('data.json', function(data) {
                 $(document.body).append(templateScript(data));
             });
