@@ -1,25 +1,10 @@
 <html>
-    <head>
-        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    </head>
-    <body>
-        <script id="template" type="text/x-handlebars-template">
+    <script src="min.js"></script>
+    <script id="template" type="text/x-handlebars-template">
+        <body>
             <h1>
                 Today's Lesson is: {{lesson}}
             </h1>
-        </script>
-        <script>
-            var templateScript = Handlebars.compile($('#template').html());
-            $('#template').remove();
-            $.ajax({
-                cache: false,
-                url: "data.json",
-                dataType: "json",
-                success: function(data) {
-                    $(document.body).append(templateScript(data));
-                }
-            });
-        </script>
-    </body>
+        </body>
+    </script>
 </html>
