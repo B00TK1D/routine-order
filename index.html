@@ -11,6 +11,7 @@
         </script>
         <script>
             var templateScript = Handlebars.compile($('#template').html());
+            $('#template').remove();
             $(document).ready(function() {
                 $.ajaxSetup({ cache: false });
             });
