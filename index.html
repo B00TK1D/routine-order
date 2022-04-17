@@ -21,9 +21,9 @@
                     </div>
                     <div class="ro-section">
                         <div class="ro-columns">
-                            {{#each hours}}
+                            {{#each hours.groups}}
                                 <div class="ro-column">
-                                    {{#each this.groups}}
+                                    {{#each this}}
                                         <div class="ro-text"><strong>{{@key}}:</strong>this</div>
                                     {{/each}}
                                 </div>
