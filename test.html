@@ -1,0 +1,14 @@
+<html>
+    <script src="min.js"></script>
+    <link href="min.css" rel="stylesheet" type="text/css" />
+    <script id="template" type="text/x-handlebars-template">
+        {{#each day}}
+            <h2>{{date}}</h2>
+            <ul>
+                {{#each events}}
+                    <li>{{title}}</li>
+                {{/each}}
+            </ul>
+        {{/each}}
+    </script>
+</html>

@@ -1,3 +1,50 @@
 {
-    "lesson": "M7"
+    "days": {
+        "18-APR-2022": {
+                "Date": "Monday, 18 April 2022",
+                "Lesson": "T33",
+                "UOD": "OCPs",
+                "Weather": "Sunny - High 62°, Low 28°",
+                "Hours": {
+                    "Reveille": "0700",
+                    "Taps": "2300",
+                    "Hap's": "1800 - 2300",
+                    "Library": "0700 - 2200",
+                    "Gym": "0515 - 2200",
+                    "Pool": "1115 - 1345, 1815 - 2100"
+                },
+                "Events": {
+                    "MAF": {
+                        "Name": "MAF",
+                        "Time": "0645 - 0655",
+                        "Description": "",
+                        "Mandatory": true
+                    },
+                    "Breakfast": {
+                        "Name": "Breakfast",
+                        "Time": "0600 - 0900",
+                        "Description": "Good4DI's Scrambled Eggs",
+                        "Mandatory": false
+                    },
+                    "NMF": {
+                        "Name": "NMF",
+                        "Time": "1130 - 1150",
+                        "Description": "",
+                        "Mandatory": true
+                    },
+                    "Lunch": {
+                        "Name": "Lunch",
+                        "Time": "1155 - 1213",
+                        "Description": "Good4DI's Chicken Sandwhiches",
+                        "Mandatory": true
+                    },
+                    "Dinner": {
+                        "Name": "Dinner",
+                        "Time": "1700 - 1950",
+                        "Description": "Good4DI's Italian Night",
+                        "Mandatory": false
+                    }
+                }
+            }
+        }
 }
