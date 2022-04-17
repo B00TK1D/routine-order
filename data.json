@@ -1,44 +1,75 @@
 {
-    "days": {
-        "Monday, 18 April 2022": {
-                "lesson": "T33",
-                "uod": "OCPs",
-                "weather": "Sunny - High 62°, Low 28°",
-                "hours": {
-                    "Reveille": "0700",
-                    "Taps": "2300",
-                    "Hap's": "1800 - 2300",
-                    "Library": "0700 - 2200",
-                    "Gym": "0515 - 2200",
-                    "Pool": "1115 - 1345, 1815 - 2100"
-                },
-                "events": {
-                    "MAF": {
-                        "Time": "0645 - 0655",
-                        "Description": "",
-                        "Mandatory": true
-                    },
-                    "Breakfast": {
-                        "Time": "0600 - 0900",
-                        "Description": "Good4DI's Scrambled Eggs",
-                        "Mandatory": false
-                    },
-                    "NMF": {
-                        "Time": "1130 - 1150",
-                        "Description": "",
-                        "Mandatory": true
-                    },
-                    "Lunch": {
-                        "Time": "1155 - 1213",
-                        "Description": "Good4DI's Chicken Sandwhiches",
-                        "Mandatory": true
-                    },
-                    "Dinner": {
-                        "Time": "1700 - 1950",
-                        "Description": "Good4DI's Italian Night",
-                        "Mandatory": false
-                    }
-                }
+    "date": "Monday, 18 April 2022",
+    "lesson": "T33",
+    "uod": "OCPs",
+    "weather": "Sunny - High 62°, Low 28°",
+    "hours": {
+        "groups": {
+            "1": {
+                "Reveille": "0700",
+                "Taps": "2300"
+            },
+            "2": {
+                "Hap's": "1800 - 2300",
+                "Library": "0700 - 2200"
+            },
+            "3": {
+                "Gym": "0515 - 2200",
+                "Pool": "1115 - 1345, 1815 - 2100"
             }
         }
+    },
+    "events": {
+        "MAF": {
+            "time": "0645 - 0655",
+            "description": "",
+            "mandatory": true
+        },
+        "Breakfast": {
+            "time": "0600 - 0900",
+            "description": "Good4DI's Scrambled Eggs",
+            "mandatory": false
+        },
+        "NMF": {
+            "time": "1130 - 1150",
+            "description": "",
+            "mandatory": true
+        },
+        "Lunch": {
+            "time": "1155 - 1213",
+            "description": "Good4DI's Chicken Sandwhiches",
+            "mandatory": true
+        },
+        "Dinner": {
+            "time": "1700 - 1950",
+            "description": "Good4DI's Italian Night",
+            "mandatory": false
+        }
+    },
+    "classes": {
+        "2022": {
+            "grad": 56,
+            "event": "Graduation",
+            "days": 56,
+            "color": "red"
+        },
+        "2023": {
+            "grad": 428,
+            "event": "Ring Dance",
+            "days": 51,
+            "color": "yellow"
+        },
+        "2024": {
+            "grad": 789,
+            "event": "Commitment",
+            "days": 131,
+            "color": "blue"
+        },
+        "2025": {
+            "grad": 1155,
+            "event": "Commitment",
+            "days": 496,
+            "color": "silver"
+        }
+    }
 }
