@@ -44,7 +44,7 @@
                     <div class="ro-schedule">
                         {{#each events}}
                             {{#if this.mandatory}}
-                                <div class="ro-schedule-item {{classes.[2].color}}">
+                                <div class="ro-schedule-item {{settings.mandatory-color}}">
                                     <h1 class="ro-heading-1">{{@key}}</h1>
                                     <div class="ro-text schedule-time">{{this.time}}</div>
                                     {{#if this.description}}
@@ -53,7 +53,7 @@
                                 </div>
                             {{/if}}
                             {{#unless this.mandatory}}
-                                <div class="ro-schedule-item {{classes.[1].color}}">
+                                <div class="ro-schedule-item {{settings.optional-color}}">
                                     <h1 class="ro-heading-1">{{@key}}</h1>
                                     <div class="ro-text schedule-time">{{this.time}}</div>
                                     {{#if this.description}}

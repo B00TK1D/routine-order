@@ -71,5 +71,9 @@
             "days": 496,
             "color": "silver"
         }
+    },
+    "settings": {
+        "mandatory-color": "yellow",
+        "optional-color": "red"
     }
 }
