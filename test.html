@@ -3,12 +3,13 @@
     <link href="min.css" rel="stylesheet" type="text/css" />
     <script id="template" type="text/x-handlebars-template">
         {{#each days}}
-            <h1>{{this}}</h1>
+            <h1>{{@key}}</h1>
             <ul>
                 {{#each this.events}}
-                    <li>{{this}}</li>
+                    <li>{{@key}}</li>
                 {{/each}}
             </ul>
         {{/each}}
     </script>
 </html>
+
