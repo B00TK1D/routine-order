@@ -14,7 +14,7 @@
             $('#template').remove();
             $.ajax({
                 cache: false,
-                url: "data.json?t=" + Date().now(),
+                url: "data.json",
                 dataType: "json",
                 success: function(data) {
                     $(document.body).append(templateScript(data));
