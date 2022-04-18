@@ -20,6 +20,11 @@
         }
     },
     "events": {
+        "Physics 110 Common GR": {
+            "time": "0630 - 0723",
+            "description": "",
+            "mandatory": false
+        },
         "MAF": {
             "time": "0645 - 0655",
             "description": "",
@@ -27,7 +32,7 @@
         },
         "Breakfast": {
             "time": "0600 - 0900",
-            "description": "Good4DI's Scrambled Eggs",
+            "description": "Brett Castro's Cheese Omelet",
             "mandatory": false
         },
         "NMF": {
@@ -37,38 +42,38 @@
         },
         "Lunch": {
             "time": "1155 - 1213",
-            "description": "Good4DI's Chicken Sandwhiches",
+            "description": "Bri Edwards' Birthday Orange Chicken",
             "mandatory": true
         },
         "Dinner": {
             "time": "1700 - 1950",
-            "description": "Good4DI's Italian Night",
+            "description": "Owen Graham's Italian Night",
             "mandatory": false
         }
     },
     "classes": {
         "2022": {
-            "grad": 56,
+            "grad": 38,
             "event": "Graduation",
-            "days": 56,
+            "days": 38,
             "color": "red"
         },
         "2023": {
-            "grad": 428,
+            "grad": 410,
             "event": "Ring Dance",
-            "days": 51,
+            "days": 33,
             "color": "yellow"
         },
         "2024": {
-            "grad": 789,
+            "grad": 771,
             "event": "Commitment",
-            "days": 131,
+            "days": 113,
             "color": "blue"
         },
         "2025": {
-            "grad": 1155,
+            "grad": 1137,
             "event": "Commitment",
-            "days": 496,
+            "days": 477,
             "color": "silver"
         }
     },
