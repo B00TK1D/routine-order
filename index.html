@@ -36,8 +36,10 @@
                             <div class="ro-schedule-column {{this.color}}">
                                 <div class="ro-text centered">({{this.grad}})</div>
                                 <h1 class="ro-heading-1">{{@key}}</h1>
-                                <div class="ro-text centered">{{this.event}}</div>
-                                <div class="ro-text centered">{{this.days}}</div>
+                                {{#if this.event}}
+                                    <div class="ro-text centered">{{this.event}}</div>
+                                    <div class="ro-text centered">{{this.days}}</div>
+                                {{/if}}
                             </div>
                         {{/each}}
                     </div>

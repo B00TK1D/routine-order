@@ -72,8 +72,6 @@
         },
         "2025": {
             "grad": 1137,
-            "event": "Commitment",
-            "days": 477,
             "color": "silver"
         }
     },
