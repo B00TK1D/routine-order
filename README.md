@@ -1,2 +1,2 @@
-# routine-order
-Routine Order
+# Routine Order
+Generation system for USAFA Routine Order
