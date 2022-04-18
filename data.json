@@ -45,6 +45,11 @@
             "description": "Bri Edwards' Birthday Orange Chicken",
             "mandatory": true
         },
+        "Intramurals Tournament": {
+            "time": "1550 - 1745",
+            "description": "",
+            "mandatory": false
+        },
         "Dinner": {
             "time": "1700 - 1950",
             "description": "Owen Graham's Italian Night",
