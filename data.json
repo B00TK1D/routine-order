@@ -1,8 +1,8 @@
 {
-    "date": "Monday, 18 April 2022",
-    "lesson": "T33",
+    "date": "Tuesday, 19 April 2022",
+    "lesson": "M34",
     "uod": "OCPs",
-    "weather": "Sunny - High 61°, Low 37°",
+    "weather": "Sunny - High 72°, Low 42°",
     "hours": {
         "groups": {
             "1": {
@@ -20,63 +20,58 @@
         }
     },
     "events": {
-        "Physics 110 Common GR": {
+        "Math 245 Common GR": {
             "time": "0630 - 0723",
             "description": "",
             "mandatory": false
         },
-        "MAF": {
-            "time": "0645 - 0655",
-            "description": "",
-            "mandatory": true
-        },
         "Breakfast": {
             "time": "0600 - 0900",
-            "description": "Brett Castro's Cheese Omelet",
+            "description": "John Subick's Breakfast Casserole",
             "mandatory": false
         },
-        "NMF": {
-            "time": "1130 - 1150",
-            "description": "",
-            "mandatory": true
-        },
         "Lunch": {
-            "time": "1155 - 1213",
-            "description": "Bri Edwards' Birthday Orange Chicken",
+            "time": "1135 - 1153",
+            "description": "Nicholas Blakney's Meat Lasagna",
             "mandatory": true
         },
-        "Intramurals Tournament": {
+        "Intramurals Semifinals": {
             "time": "1550 - 1745",
             "description": "",
             "mandatory": false
         },
         "Dinner": {
             "time": "1700 - 1950",
-            "description": "Owen Graham's Italian Night",
+            "description": "Timothy Martin's Domino's Pizza",
             "mandatory": false
+        },
+        "A-Hall Rave": {
+            "time": "1900 - 2100",
+            "description": "A-Hall Theater",
+            "mandatory": true
         }
     },
     "classes": {
         "2022": {
-            "grad": 38,
+            "grad": 37,
             "event": "Graduation",
-            "days": 38,
+            "days": 37,
             "color": "red"
         },
         "2023": {
-            "grad": 410,
+            "grad": 409,
             "event": "Ring Dance",
-            "days": 33,
+            "days": 32,
             "color": "yellow"
         },
         "2024": {
-            "grad": 771,
+            "grad": 770,
             "event": "Commitment",
-            "days": 113,
+            "days": 112,
             "color": "blue"
         },
         "2025": {
-            "grad": 1137,
+            "grad": 1136,
             "color": "silver"
         }
     },
