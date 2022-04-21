@@ -1,0 +1,74 @@
+<html>
+    <script src="onedrive.js"></script>
+    <link href="min.css" rel="stylesheet" type="text/css" />
+    <script id="template" type="text/x-handlebars-template">
+        <head>
+            <title>Routine Order</title>
+            <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        </head>
+        <body>
+            <div class="body">
+                <div class="email-container wf-section">
+                    <div class="ro-header">
+                        <h1 class="ro-heading-1">CadetNet</h1>
+                        <h1 class="ro-heading-1">Wing Operations Routine Order</h1>
+                        <h1 class="ro-heading-1">{{date}}</h1>
+                    </div>
+                    <div class="ro-section">
+                        <h1 class="ro-heading-1">{{lesson}}</h1>
+                        <h1 class="ro-heading-1">UOD: {{uod}}</h1>
+                        <h1 class="ro-heading-1"><strong>{{weather}}</strong></h1>
+                    </div>
+                    <div class="ro-section">
+                        <div class="ro-columns">
+                            {{#each hours.groups}}
+                                <div class="ro-column">
+                                    {{#each this}}
+                                        <div class="ro-text"><strong>{{@key}}: </strong>{{this}}</div>
+                                    {{/each}}
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    <div class="ro-schedule-block">
+                    <div class="ro-schedule-header">
+                        {{#each classes}}
+                            <div class="ro-schedule-column {{this.color}}">
+                                <div class="ro-text centered">({{this.grad}})</div>
+                                <h1 class="ro-heading-1">{{@key}}</h1>
+                                {{#if this.event}}
+                                    <div class="ro-text centered">{{this.event}}</div>
+                                    <div class="ro-text centered">{{this.days}}</div>
+                                {{/if}}
+                            </div>
+                        {{/each}}
+                    </div>
+                    <div class="ro-schedule">
+                        {{#each events}}
+                            {{#if this.mandatory}}
+                                <div class="ro-schedule-item {{@root.settings.mandatory-color}}">
+                                    <h1 class="ro-heading-1">{{@key}}</h1>
+                                    <div class="ro-text schedule-time">{{this.time}}</div>
+                                    {{#if this.description}}
+                                        <div class="ro-text schedule-description"><strong class="bold-text">{{this.description}}</strong></div>
+                                    {{/if}}
+                                </div>
+                            {{/if}}
+                            {{#unless this.mandatory}}
+                                <div class="ro-schedule-item {{@root.settings.optional-color}}">
+                                    <h1 class="ro-heading-1">{{@key}}</h1>
+                                    <div class="ro-text schedule-time">{{this.time}}</div>
+                                    {{#if this.description}}
+                                        <div class="ro-text schedule-description"><strong class="bold-text">{{this.description}}</strong></div>
+                                    {{/if}}
+                                </div>
+                            {{/unless}}
+                        {{/each}}
+                    </div>
+                    </div>
+                </div>
+                <div class="ro-spacer"></div>
+            </div>
+        </body>
+    </script>
+</html>
