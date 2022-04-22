@@ -25,6 +25,10 @@
             "description": "",
             "mandatory": false
         },
+        "MAF": {
+            "time": "0645 - 0655",
+            "mandatory": true
+        },
         "Breakfast": {
             "time": "0600 - 0900",
             "description": "Taryn Cates-Beier's Breakfast Burritos",
