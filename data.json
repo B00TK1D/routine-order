@@ -1,8 +1,8 @@
 {
-    "date": "Thursday, 21 April 2022",
-    "lesson": "M35",
-    "uod": "OCPs",
-    "weather": "Sunny - High 72°, Low 44°",
+    "date": "Friday, 22 April 2022",
+    "lesson": "T35",
+    "uod": "Flight Suits",
+    "weather": "Cloudy - High 75°, Low 37°",
     "hours": {
         "groups": {
             "1": {
@@ -20,19 +20,14 @@
         }
     },
     "events": {
-        "Astro Engr 210 Common GR": {
+        "Meteor 320 Common GR": {
             "time": "0630 - 0723",
             "description": "",
             "mandatory": false
         },
-        "MAF": {
-            "time": "0645 - 0655",
-            "description": "",
-            "mandatory": true
-        },
         "Breakfast": {
             "time": "0600 - 0900",
-            "description": "Spencer Miller's Scrambled Eggs",
+            "description": "Taryn Cates-Beier's Breakfast Burritos",
             "mandatory": false
         },
         "NMF": {
@@ -41,46 +36,36 @@
         },
         "Lunch": {
             "time": "1155 - 1213",
-            "description": "Drake Barbarii's Chicken Tenders",
+            "description": "Sara Deczynski's Turkey and Roast Beef Sandwiches",
             "mandatory": true
-        },
-        "Intramurals Semifinals": {
-            "time": "1550 - 1745",
-            "description": "",
-            "mandatory": false
         },
         "Dinner": {
             "time": "1700 - 1950",
-            "description": "Haena Lee's Pork Chops",
-            "mandatory": false
-        },
-        "Desserts Around the World": {
-            "time": "1800 - 2000",
-            "description": "A-Hall",
+            "description": "Cameo Stapleton's Chicken Cacciatore",
             "mandatory": false
         }
     },
     "classes": {
         "2022": {
-            "grad": 36,
+            "grad": 34,
             "event": "Graduation",
-            "days": 36,
+            "days": 34,
             "color": "red"
         },
         "2023": {
-            "grad": 408,
+            "grad": 406,
             "event": "Ring Dance",
-            "days": 31,
+            "days": 29,
             "color": "yellow"
         },
         "2024": {
-            "grad": 769,
+            "grad": 766,
             "event": "Commitment",
-            "days": 111,
+            "days": 109,
             "color": "blue"
         },
         "2025": {
-            "grad": 1135,
+            "grad": 1133,
             "color": "silver"
         }
     },
